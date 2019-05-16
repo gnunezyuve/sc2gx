@@ -1,0 +1,28 @@
+#!/bin/bash
+
+IFS=$'\n'
+RAW=$(
+  while read -r line; do 
+    printf '%s\n' "$line" | grep -v "goto\|format\|^#\|^$" |\
+      sed 's/ = /=/g' | cut -d \  -f1 --complement 
+  done < $1
+)
+TITLE=$(echo $1 | sed "s/\.sc//")
+DATA=$(echo "$RAW" |grep -v "^[A-Z]\+0")
+HEADERS=$(echo "$RAW" |grep "^[A-Z]\+0" | sed "s/\"//g")
+LAST=$(echo "$RAW" | tail -1 | cut -d \= -f1 | sed "s/^[A-Z]\+//")
+
+printf "%sCollection\n{" "$TITLE"
+for (( i=1; i<=$LAST; i++ )); do 
+  CURRENTLINE=$(echo "$DATA" | grep "^[A-Z]\+$i=") 
+  if [ ! -z "$CURRENTLINE" ]; then
+    printf "\n\t%s\n\t{" "$TITLE"
+    for a in $CURRENTLINE; do
+      X=$(echo "$a" | sed "s/[0-9]\+=.\+//g")
+      HEADER=$(echo "$HEADERS" | grep "^$X[0-9]\+=" | sed "s/.\+=//g")
+      printf "\n\t\t%s%s = %s" "$TITLE" "$HEADER" "$(echo "$a" | cut -d \= -f2 | sed "s/\"\[\|\]\"//g")"
+    done
+    printf "\n\t}"
+  fi
+done
+printf "\n}\n"
