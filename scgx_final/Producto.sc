@@ -1,0 +1,224 @@
+ProductoCollection
+{
+	Producto
+	{
+		ProductoId = 1
+		ProductoTitulo = "Mesa de madera"
+		ProductoDescripcion = "Mesa grande para comedor"
+		ProductoPrecio = 9999
+		TipoProductoId = 10
+		VendedorId = "1"
+	}
+	Producto
+	{
+		ProductoId = 2
+		ProductoTitulo = "Silla de plástico"
+		ProductoDescripcion = "Para exteriores"
+		ProductoPrecio = 999
+		TipoProductoId = 10
+		VendedorId = "1"
+	}
+	Producto
+	{
+		ProductoId = 3
+		ProductoTitulo = "Samsung Galaxy S7"
+		ProductoDescripcion = "Teléfono celular"
+		ProductoPrecio = 5400
+		TipoProductoId = 1
+		VendedorId = "1"
+	}
+	Producto
+	{
+		ProductoId = 4
+		ProductoTitulo = "Chevrolet Spark "
+		ProductoPrecio = 180000
+		TipoProductoId = 2
+		VendedorId = "4"
+	}
+	Producto
+	{
+		ProductoId = 5
+		ProductoTitulo = "MicroSD 32GB"
+		ProductoDescripcion = "Marca Kingston"
+		ProductoPrecio = 350
+		TipoProductoId = 8
+		VendedorId = "3"
+	}
+	Producto
+	{
+		ProductoId = 6
+		ProductoTitulo = "Casa en Prado"
+		ProductoDescripcion = "120 m2"
+		ProductoPrecio = 4680000
+		TipoProductoId = 3
+		VendedorId = "2"
+	}
+	Producto
+	{
+		ProductoId = 7
+		ProductoTitulo = "Samsung Galaxy J7"
+		ProductoDescripcion = "Nuevo"
+		ProductoPrecio = 7000
+		TipoProductoId = 1
+		VendedorId = "5"
+	}
+	Producto
+	{
+		ProductoId = 8
+		ProductoTitulo = "Raspberry Pi"
+		ProductoDescripcion = "Modelo B+"
+		ProductoPrecio = 1500
+		TipoProductoId = 9
+		VendedorId = "5"
+	}
+	Producto
+	{
+		ProductoId = 9
+		ProductoTitulo = "Canil para perro chico "
+		ProductoDescripcion = "Excelente canil"
+		ProductoPrecio = 4000
+		TipoProductoId = 4
+		VendedorId = "2"
+	}
+	Producto
+	{
+		ProductoId = 10
+		ProductoTitulo = "Rack para TV"
+		ProductoPrecio = 2600
+		TipoProductoId = 10
+		VendedorId = "2"
+	}
+	Producto
+	{
+		ProductoId = 11
+		ProductoTitulo = "Xiaomi Redmi Note 7"
+		ProductoDescripcion = "Xiaomi Redmi Note 7 64gb: Un teléfono de gama media con una potencia similar a la"
+		ProductoPrecio = 10000
+		TipoProductoId = 1
+		VendedorId = "5"
+	}
+	Producto
+	{
+		ProductoId = 12
+		ProductoTitulo = "Parlante Bluetooth JBL"
+		ProductoPrecio = 1400
+		TipoProductoId = 9
+		VendedorId = "5"
+	}
+	Producto
+	{
+		ProductoId = 13
+		ProductoTitulo = "Apple iPhone 7"
+		ProductoDescripcion = "Modelo 32GB"
+		ProductoPrecio = 15000
+		TipoProductoId = 1
+		VendedorId = "1"
+	}
+	Producto
+	{
+		ProductoId = 14
+		ProductoTitulo = "Mueble aéreo, 3 puertas"
+		ProductoPrecio = 800
+		TipoProductoId = 10
+		VendedorId = "3"
+	}
+	Producto
+	{
+		ProductoId = 15
+		ProductoTitulo = "Sofá 2 cuerpos"
+		ProductoDescripcion = "En tela poliéster símil cuero. Relleno en espuma 24/30/37 kg/m3, resortes y fibra"
+		ProductoPrecio = 15000
+		TipoProductoId = 10
+		VendedorId = "4"
+	}
+	Producto
+	{
+		ProductoId = 16
+		ProductoTitulo = "Renault Kwid 1.0"
+		ProductoDescripcion = "2 airbag frontales, 2 airbag laterales, radio USB Bluetooth, aire acondicionado, "
+		ProductoPrecio = 500000
+		TipoProductoId = 2
+		VendedorId = "3"
+	}
+	Producto
+	{
+		ProductoId = 17
+		ProductoTitulo = "Volkswagen Up!"
+		ProductoDescripcion = "Motor 1.0, 3 puertas"
+		ProductoPrecio = 400000
+		TipoProductoId = 2
+		VendedorId = "3"
+	}
+	Producto
+	{
+		ProductoId = 18
+		ProductoTitulo = "Smart TV Samsung 50' 4K"
+		ProductoDescripcion = "Modelo NU7100"
+		ProductoPrecio = 28000
+		TipoProductoId = 9
+		VendedorId = "1"
+	}
+	Producto
+	{
+		ProductoId = 19
+		ProductoTitulo = "Cubiertas Goodyear"
+		ProductoDescripcion = "Juego de 4 cubiertas"
+		ProductoPrecio = 15000
+		TipoProductoId = 2
+		VendedorId = "3"
+	}
+	Producto
+	{
+		ProductoId = 20
+		ProductoTitulo = "Cubreasientos"
+		ProductoDescripcion = "Para auto o camioneta"
+		ProductoPrecio = 1300
+		TipoProductoId = 2
+		VendedorId = "1"
+	}
+	Producto
+	{
+		ProductoId = 21
+		ProductoTitulo = "Notebook Acer Nitro 15.6'"
+		ProductoDescripcion = "Core I5 1tb 8gb Gtx1050 "
+		ProductoPrecio = 35000
+		TipoProductoId = 8
+		VendedorId = "3"
+	}
+	Producto
+	{
+		ProductoId = 22
+		ProductoTitulo = "Notebook Lenovo 330"
+		ProductoDescripcion = "CPU: AMD RYZEN 3 2200U"
+		ProductoPrecio = 30000
+		TipoProductoId = 8
+		VendedorId = "2"
+	}
+	Producto
+	{
+		ProductoId = 23
+		ProductoTitulo = "Pc Todo En Uno Lenovo 520"
+		ProductoDescripcion = "Core I5/4gb/1tb"
+		ProductoPrecio = 34000
+		TipoProductoId = 8
+		VendedorId = "4"
+	}
+	Producto
+	{
+		ProductoId = 24
+		ProductoTitulo = "Led Sony Bravia 49"
+		ProductoDescripcion = "Kd-49x725f"
+		ProductoPrecio = 26000
+		TipoProductoId = 6
+		VendedorId = "2"
+	}
+	Producto
+	{
+		ProductoId = 25
+		ProductoTitulo = "Lavarropas 11kg LG"
+		ProductoDescripcion = "Lavasecarropa LG WD11DBS6 11kg / 7kg secado "
+		ProductoPrecio = 50000
+		TipoProductoId = 10
+		VendedorId = "4"
+	}
+}
