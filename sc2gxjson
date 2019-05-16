@@ -20,7 +20,13 @@ for (( i=1; i<=$LAST; i++ )); do
     for a in $CURRENTLINE; do
       X=$(echo "$a" | sed "s/[0-9]\+=.\+//g")
       HEADER=$(echo "$HEADERS" | grep "^$X[0-9]\+=" | sed "s/.\+=//g")
-      printf "\n\t\t%s%s = %s" "$TITLE" "$HEADER" "$(echo "$a" | cut -d \= -f2 | sed "s/\"\[\|\]\"//g")"
+      if [ "${HEADER:0:1}" != '*' ]; then
+        HEADER=$TITLE$HEADER
+      else 
+        HEADER="${HEADER:1}"
+      fi
+      #printf "\n\t\t%s%s = %s" "$TITLE" "$HEADER" "$(echo "$a" | cut -d \= -f2 | sed "s/\"\[\|\]\"//g")"
+      printf "\n\t\t%s = %s" "$HEADER" "$(echo "$a" | cut -d \= -f2 | sed "s/\"\[\|\]\"//g")"
     done
     printf "\n\t}"
   fi
