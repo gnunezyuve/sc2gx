@@ -2,7 +2,7 @@ UsuarioCollection
 {
 	Usuario
 	{
-		UsuarioId = 1
+		UsuarioId = "1"
 		UsuarioNombre = "Matteo Hensley"
 		UsuarioEsComercio = true
 		UsuarioEmail = "MatteoHensley@abc.me"
@@ -11,7 +11,7 @@ UsuarioCollection
 	}
 	Usuario
 	{
-		UsuarioId = 2
+		UsuarioId = "2"
 		UsuarioNombre = "Ashwin Reeves"
 		UsuarioEsComercio = false
 		UsuarioEmail = "AshwinReeves@fing.edu.uy"
@@ -20,7 +20,7 @@ UsuarioCollection
 	}
 	Usuario
 	{
-		UsuarioId = 3
+		UsuarioId = "3"
 		UsuarioNombre = "Anika Mcdonnell"
 		UsuarioEsComercio = true
 		UsuarioEmail = "AnikaMcd@pm.me"
@@ -29,7 +29,7 @@ UsuarioCollection
 	}
 	Usuario
 	{
-		UsuarioId = 4
+		UsuarioId = "4"
 		UsuarioNombre = "Gabriela Rowley"
 		UsuarioEsComercio = true
 		UsuarioEmail = "GabbyRowley@gmail.com"
@@ -38,7 +38,7 @@ UsuarioCollection
 	}
 	Usuario
 	{
-		UsuarioId = 5
+		UsuarioId = "5"
 		UsuarioNombre = "Conal Odling"
 		UsuarioEsComercio = false
 		UsuarioEmail = "codli@yahoo.es"
@@ -47,7 +47,7 @@ UsuarioCollection
 	}
 	Usuario
 	{
-		UsuarioId = 6
+		UsuarioId = "6"
 		UsuarioNombre = "Hendrix Murillo"
 		UsuarioEsComercio = false
 		UsuarioEmail = "hmurillo@aol.com"
