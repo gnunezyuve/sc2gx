@@ -8,6 +8,7 @@ ProductoCollection
 		ProductoPrecio = 9999
 		TipoProductoId = 10
 		VendedorId = "1"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -17,6 +18,7 @@ ProductoCollection
 		ProductoPrecio = 999
 		TipoProductoId = 10
 		VendedorId = "1"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -26,6 +28,7 @@ ProductoCollection
 		ProductoPrecio = 5400
 		TipoProductoId = 1
 		VendedorId = "1"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -34,6 +37,7 @@ ProductoCollection
 		ProductoPrecio = 180000
 		TipoProductoId = 2
 		VendedorId = "4"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -43,6 +47,7 @@ ProductoCollection
 		ProductoPrecio = 350
 		TipoProductoId = 8
 		VendedorId = "3"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -52,6 +57,7 @@ ProductoCollection
 		ProductoPrecio = 4680000
 		TipoProductoId = 3
 		VendedorId = "2"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -61,6 +67,7 @@ ProductoCollection
 		ProductoPrecio = 7000
 		TipoProductoId = 1
 		VendedorId = "5"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -70,6 +77,7 @@ ProductoCollection
 		ProductoPrecio = 1500
 		TipoProductoId = 9
 		VendedorId = "5"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -79,6 +87,7 @@ ProductoCollection
 		ProductoPrecio = 4000
 		TipoProductoId = 4
 		VendedorId = "2"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -87,6 +96,7 @@ ProductoCollection
 		ProductoPrecio = 2600
 		TipoProductoId = 10
 		VendedorId = "2"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -96,6 +106,7 @@ ProductoCollection
 		ProductoPrecio = 10000
 		TipoProductoId = 1
 		VendedorId = "5"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -104,6 +115,7 @@ ProductoCollection
 		ProductoPrecio = 1400
 		TipoProductoId = 9
 		VendedorId = "5"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -113,6 +125,7 @@ ProductoCollection
 		ProductoPrecio = 15000
 		TipoProductoId = 1
 		VendedorId = "1"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -121,6 +134,7 @@ ProductoCollection
 		ProductoPrecio = 800
 		TipoProductoId = 10
 		VendedorId = "3"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -130,6 +144,7 @@ ProductoCollection
 		ProductoPrecio = 15000
 		TipoProductoId = 10
 		VendedorId = "4"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -139,6 +154,7 @@ ProductoCollection
 		ProductoPrecio = 500000
 		TipoProductoId = 2
 		VendedorId = "3"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -148,6 +164,7 @@ ProductoCollection
 		ProductoPrecio = 400000
 		TipoProductoId = 2
 		VendedorId = "3"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -157,6 +174,7 @@ ProductoCollection
 		ProductoPrecio = 28000
 		TipoProductoId = 9
 		VendedorId = "1"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -166,6 +184,7 @@ ProductoCollection
 		ProductoPrecio = 15000
 		TipoProductoId = 2
 		VendedorId = "3"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -175,6 +194,7 @@ ProductoCollection
 		ProductoPrecio = 1300
 		TipoProductoId = 2
 		VendedorId = "1"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -184,6 +204,7 @@ ProductoCollection
 		ProductoPrecio = 35000
 		TipoProductoId = 8
 		VendedorId = "3"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -193,6 +214,7 @@ ProductoCollection
 		ProductoPrecio = 30000
 		TipoProductoId = 8
 		VendedorId = "2"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -202,6 +224,7 @@ ProductoCollection
 		ProductoPrecio = 34000
 		TipoProductoId = 8
 		VendedorId = "4"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -211,6 +234,7 @@ ProductoCollection
 		ProductoPrecio = 26000
 		TipoProductoId = 6
 		VendedorId = "2"
+		ProductoStock = 2
 	}
 	Producto
 	{
@@ -220,5 +244,6 @@ ProductoCollection
 		ProductoPrecio = 50000
 		TipoProductoId = 10
 		VendedorId = "4"
+		ProductoStock = 2
 	}
 }

@@ -48,4 +48,10 @@ rightstring C6 = "[false]"
 rightstring D6 = "hmurillo@aol.com"
 rightstring E6 = "3084 Oliver Street"
 rightstring F6 = "094875981"
-goto F1
+rightstring A7 = "7"
+rightstring B7 = "Pedro"
+rightstring C7 = "[false]"
+rightstring D7 = "mail@mail.com"
+rightstring E7 = "1234 Street"
+rightstring F7 = "12344567"
+goto F8

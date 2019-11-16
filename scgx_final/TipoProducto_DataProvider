@@ -32,7 +32,7 @@ TipoProductoCollection
 	}
 	TipoProducto
 	{
-		TipoProductoTitulo = "Inmuebles"
+		TipoProductoTitulo = "Vestimenta"
 		TipoProductoId = 7
 	}
 	TipoProducto
